@@ -1,7 +1,7 @@
 'use strict';
 /* global evt */
 
-window.SmartBanner = (function(win) {
+window.FxosTvBanner = (function(win) {
 
   // Extend from the HTMLElement prototype
   var proto = evt(Object.create(HTMLElement.prototype));
@@ -126,5 +126,5 @@ window.SmartBanner = (function(win) {
   };
 
   // Register and return the constructor
-  return document.registerElement('smart-banner', { prototype: proto });
+  return document.registerElement('fxos-tv-banner', { prototype: proto });
 })(window);
